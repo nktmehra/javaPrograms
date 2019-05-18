@@ -125,8 +125,8 @@ public class Interview {
 
 				}
 			}
-			if (count1 > 0) {
-				System.out.println("The character " + c + " has occured " + count1 + " times");
+			if (count1 0) {
+				System.oui("The character " + c + " has occured " + count1 + " times");
 			}
 		}
 
