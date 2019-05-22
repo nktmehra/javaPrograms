@@ -129,7 +129,32 @@ public class Interview {
 				System.out.println("The character " + c + " has occured " + count1 + " times");
 			}
 		}
+		System.out.println("********************Largest and smallest numbers ******************************");
+		
+		int[] arr1 = {123,324,56,324,6575};
+		
+		int largestNum = arr1[0];
+		int smallestNum = arr1[0];
+		
+		for(int i =1;i <arr1.length;i++) {
+			if(arr1[i]> largestNum) {
+				largestNum = arr1[i];
+			}else if(arr1[i] < smallestNum){
+				smallestNum = arr1[i];
+			}
+		
+		}
+		System.out.println("Thae largest Number is: "+ largestNum);
+		System.out.println("Thae smallest Number is: "+ smallestNum);
 
+		
+		System.out.println("***********************BubbleSort***********************");
+		
+		int[] bubble = {123,345,213,345,65,3454523};
+		
+		for(int i =0 ;i < bubble.length;i++) {
+			
+		}
 	}// end of Main method
 
 }
